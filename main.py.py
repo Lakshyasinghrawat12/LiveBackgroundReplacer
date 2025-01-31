@@ -6,7 +6,7 @@ mp_selfie_segmentation = mp.solutions.selfie_segmentation
 selfie_segmentation = mp_selfie_segmentation.SelfieSegmentation(model_selection=1)
 
 
-background_image = cv2.imread(r'C:\Users\laksh\Desktop\opencv\task1\scene.png', cv2.IMREAD_COLOR)
+background_image = cv2.imread(r'File_location', cv2.IMREAD_COLOR)
 
 
 cap = cv2.VideoCapture(0)
